@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YV3/i+OgDK1Ic3ozS6K0UhcGc8+IpcubqeWOGhRb9tY=",
+  "Hash": "Nyzpg7BRKdhdjOyUDNtsKJlCaYTj5+M8hsj1HZ5SPsY=",
   "Source": "WebAppbloom",
   "BasePath": "_content/WebAppbloom",
   "Mode": "Default",
@@ -68,12 +68,12 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\ALUNO\\Desktop\\Dftech\\TaxoBloom\\WebAppBloom\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\ALUNO\\Desktop\\Dftech\\TaxoBloom\\WebAppBloom\\wwwroot\\favicon_io.zip",
       "SourceId": "WebAppbloom",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ALUNO\\Desktop\\Dftech\\TaxoBloom\\WebAppBloom\\wwwroot\\",
       "BasePath": "_content/WebAppbloom",
-      "RelativePath": "favicon.ico",
+      "RelativePath": "favicon_io.zip",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -82,7 +82,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
+      "OriginalItemSpec": "wwwroot\\favicon_io.zip"
+    },
+    {
+      "Identity": "C:\\Users\\ALUNO\\Desktop\\Dftech\\TaxoBloom\\WebAppBloom\\wwwroot\\favicon-16x16.png",
+      "SourceId": "WebAppbloom",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ALUNO\\Desktop\\Dftech\\TaxoBloom\\WebAppBloom\\wwwroot\\",
+      "BasePath": "_content/WebAppbloom",
+      "RelativePath": "favicon-16x16.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon-16x16.png"
     },
     {
       "Identity": "C:\\Users\\ALUNO\\Desktop\\Dftech\\TaxoBloom\\WebAppBloom\\wwwroot\\js\\site.js",

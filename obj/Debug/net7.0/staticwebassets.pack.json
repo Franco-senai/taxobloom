@@ -9,8 +9,12 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\ALUNO\\Desktop\\Dftech\\TaxoBloom\\WebAppBloom\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "C:\\Users\\ALUNO\\Desktop\\Dftech\\TaxoBloom\\WebAppBloom\\wwwroot\\favicon-16x16.png",
+      "PackagePath": "staticwebassets\\favicon-16x16.png"
+    },
+    {
+      "Id": "C:\\Users\\ALUNO\\Desktop\\Dftech\\TaxoBloom\\WebAppBloom\\wwwroot\\favicon_io.zip",
+      "PackagePath": "staticwebassets\\favicon_io.zip"
     },
     {
       "Id": "C:\\Users\\ALUNO\\Desktop\\Dftech\\TaxoBloom\\WebAppBloom\\wwwroot\\js\\site.js",
