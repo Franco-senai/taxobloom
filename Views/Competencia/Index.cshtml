@@ -1,17 +1,19 @@
+<p>Competência:</p> @ViewData["Titulo"]
 
 @{
-<p>Competência:</p>@ViewData["competencia"]
+  var competencia = ViewData["tablebloom"] as Competencia;
 }
+
 <div class="container">
   <div class="row">
     <div class="col">
-    linha 1 - Memorizar
+    @competencia?.ColunaBloom
     </div>
     <div class="col">
-    linha 1 - Compreender
+    Compreender
     </div>
     <div class="col">
-    linha 1 - Aplicar
+    Aplicar
     </div>
 
 </div>
@@ -19,10 +21,10 @@
 
   <div class="row">
     <div class="col">
-    linha 2 - Teste
+    Aplicar
     </div>
     <div class="col">
-    linha 2 - Coluna 2
+    @competencia?.LinhBloom
     </div>
     <div class="col">
     linha 2 - Coluna 3
@@ -34,10 +36,10 @@
 
   <div class="row">
     <div class="col">
-    linha 3 - Teste
+   Analisar
      </div>
     <div class="col">
-    linha 3 - Teste
+    linha 3 - coluna 2
     </div>
     <div class="col">
     linha 3 - Coluna 3
@@ -47,7 +49,7 @@
 
  <div class="row">
     <div class="col">
-    linha 4 - Coluna 1
+    Criar
     </div>
     <div class="col">
     linha 4 - Coluna 2
@@ -107,6 +109,20 @@
     <div class="col">
     linha 8 - Coluna 3
     </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col">
+    Criar
+    </div>
+    <div class="col">
+    linha-Coluna 4
+    </div>
+    <div class="col">
+    linha-Coluna 5
+    </div>
+
   </div>
 </div>
 

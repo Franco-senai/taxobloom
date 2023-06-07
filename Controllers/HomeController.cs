@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 
+
+namespace WebAppnbloom.Controllers;
 public class HomeController:Controller{
 
 
