@@ -1,5 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using WebAppnbloom.Models;
+using WebAppnbloom.Controllers;
+using WebAppnbloom.ViewModels;
+
 namespace WebAppnbloom.Controllers;
 
 
@@ -19,5 +22,25 @@ public IActionResult Index(){
 
 }
 
+public IActionResult RelatorioComp(){
 
+    var Competencia = new Competencia(){
+    ColunaBloom = "Pagina Teste",
+    LinhBloom = "pagina Teste"
+
+    };
+
+    var viewModel = new DetalhesCompViewModel(){
+
+        Competencia = Competencia,
+        TituloPagina = "Pagina de Teste"
+
+
+    };
+
+    return View(viewModel);
+
+
+
+}
 }
