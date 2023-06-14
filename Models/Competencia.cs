@@ -1,6 +1,6 @@
 
 
-namespace WebAppnbloom.Models;
+namespace WebAppbloom.Models;
 
 
 public class Competencia{

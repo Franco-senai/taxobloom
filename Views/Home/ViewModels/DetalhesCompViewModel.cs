@@ -1,5 +1,5 @@
-using WebAppnbloom.Models;
-namespace WebAppnbloom.ViewModels;
+using WebAppbloom.Models;
+namespace WebAppbloom.ViewModels;
 
 public class DetalhesCompViewModel{
 

@@ -1,45 +1,45 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using WebAppnbloom.Models;
+using WebAppbloom.Models;
+namespace WebAppbloom.EntityConfigs;
 
-namespace WebAppnbloom.EntityConfigs;
-
-// interface é o mais alto nivel de abstração
-//na orientação a objetos ela é aponta do icerberg
-//funciona com um contrato com as classes
-//Obriga  geralmente a implementação
-//vamos implementar um metodo da interface?
+//Interface é o mais alto nível de abstração
+//Na orientação a objetos ela é a ponta do Icerberg
+//Funciona com um contrato com as classes
+//Obriga geralmente a implementação
+//Vamos implementar um método da interface?
 public class CompetenciaEntityConfig : IEntityTypeConfiguration<Competencia>
 {
 
-    //Fluent API
+    //FLUENT API
     public void Configure(EntityTypeBuilder<Competencia> builder)
     {
-         
 
-        builder.ToTable("Competencia");
+         builder.ToTable("Competencia");
         /*
-            Chave Primaria: Identificador
-            unico - universal e imutável
-        */ 
+           Chave primária: identificador
+           único - universal e imutável 
+        */    
+        
         builder.HasKey(c=>c.Id);
 
         builder.Property(c=>c.Id)
-               .HasColumnName("ID");
-
-        /*Coluna BLoom*/
-
+               .HasColumnName("Id");
+        
+        /*Coluna Bloom*/
         builder.Property(c=>c.ColunaBloom)
                .HasColumnName("ColunaBloom")
                .HasColumnType("varchar(60)")
                .IsRequired();
 
-        /*linha bloom*/
-
+        /*Linha Bloom*/
         builder.Property(c=>c.LinhBloom)
                .HasColumnName("LinhaBloom")
                .HasColumnType("varchar(60)")
                .IsRequired();
-
+               
+           
+        
+        
     }
 }
