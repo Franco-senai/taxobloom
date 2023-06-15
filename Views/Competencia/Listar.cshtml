@@ -18,3 +18,48 @@
        } 
      }
 </table>
+
+
+<div class="card-deck"  style="width: 8.5rem;" >
+    @foreach (var item in Model.Competencias)
+    {
+        <div class="card text-white bg-primary mb-3">
+            <div class="card-body">
+                <h7 class="card-title ">@item.LinhBloom</h7>
+                <p class="card-text"></p>
+                <p class="card-text"><small class=></small></p>
+            </div>
+        </div>
+    }
+
+
+
+</div>
+
+<div class="card-deck"  style="width: 8.5rem;" >
+   <div class="d-flex"> 
+      
+    @foreach (var item in Model.Competencias)
+    {    
+        
+        <div class="card text-white bg-primary mb-3">
+            <div class="card-body">
+                <h7 class="card-title ">@item.LinhBloom</h7>
+                <p class="card-text"></p>
+                <p class="card-text"><small class=></small></p>
+            </div>
+        </div>
+      
+        
+    }
+
+
+
+</div>
+      
+
+      <button type="button" class="btn btn-outline-success">Iniciar</button>
+      <button type="button" class="btn btn-outline-danger">Apagar</button>
+      <button type="button" class="btn btn-outline-info">Atualizar</button>
+
+      
